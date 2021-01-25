@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                template="./../templates/dashboard.xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <ui:define name="content">
+         <h:panelGroup layout="block" class="row">
+                <h:panelGroup layout="block" class="col-xl-8 stretch-card grid-margin">
+                    <h:panelGroup layout="block" class="title-banner">
+                        <h:panelGroup layout="block" class="d-lg-flex justify-content-between">
+                            <h:panelGroup layout="block" class="mr-4">
+                                <h3>Avez-vous la forme aujourd'hui ?</h3>
+                                <p class="m-0">Obtenez un nombre illimité de consultation chez GesHosp et bien plus encore</p>
+                            </h:panelGroup>
+                            <h:graphicImage name="dashboard/images/banner-thumb.png" alt="" />
+                        </h:panelGroup>
+                    </h:panelGroup>
+                </h:panelGroup>
+                <h:panelGroup layout="block" class="col-xl-4 stretch-card grid-margin">
+                    <h:panelGroup layout="block" class="card">
+                        <h:panelGroup layout="block" class="time-banner">
+                            <h:panelGroup layout="block" class="d-flex justify-content-between align-items-center">
+                                <h:panelGroup layout="block" class="text-center border-right pr-3">
+                                    <i class="mdi mdi-clock-outline"></i>
+                                    <h6 class="m-0 font-weight-normal">Horaire</h6>
+                                </h:panelGroup>
+                                <h:panelGroup layout="block" class="pl-3">
+                                    <p class="m-0">Lundi-Samedi: 10.00 - 24.00</p>
+                                    <p class="m-0">Dimanche: 12.00 - 18.00</p>
+                                </h:panelGroup>
+                            </h:panelGroup>
+                        </h:panelGroup>
+                    </h:panelGroup>
+                </h:panelGroup>
+            </h:panelGroup>
+        
+        <h:panelGroup layout="block" class="row">
+                <h:panelGroup layout="block" class="col-xl-2 col-sm-4 stretch-card grid-margin">
+                    <h:panelGroup layout="block" class="card">
+                        <h:panelGroup layout="block" class="card-body">
+                            <h:panelGroup layout="block" class="text-center hospital-features">
+                                <i class="mdi mdi-stethoscope icon-md text-danger"></i>
+                                <h5 class="font-weight-normal">Docteurs</h5>
+                                <h5>0</h5>
+                            </h:panelGroup>
+                        </h:panelGroup>
+                    </h:panelGroup>
+                </h:panelGroup>
+                <h:panelGroup layout="block" class="col-xl-2 col-sm-4 stretch-card grid-margin">
+                    <h:panelGroup layout="block" class="card">
+                        <h:panelGroup layout="block" class="card-body">
+                            <h:panelGroup layout="block" class="text-center hospital-features">
+                                <i class="mdi mdi-ambulance icon-md text-danger"></i>
+                                <h5 class="font-weight-normal">Patients</h5>
+                                <h5>0</h5>
+                            </h:panelGroup>
+                        </h:panelGroup>
+                    </h:panelGroup>
+                </h:panelGroup>
+                <h:panelGroup layout="block" class="col-xl-2 col-sm-4 stretch-card grid-margin">
+                    <h:panelGroup layout="block" class="card">
+                        <h:panelGroup layout="block" class="card-body">
+                            <h:panelGroup layout="block" class="text-center hospital-features">
+                                <i class="mdi mdi-human-child icon-md text-danger"></i>
+                                <h5 class="font-weight-normal">Nurses</h5>
+                                <h5>2354</h5>
+                            </h:panelGroup>
+                        </h:panelGroup>
+                    </h:panelGroup>
+                </h:panelGroup>
+                <h:panelGroup layout="block" class="col-xl-2 col-sm-4 stretch-card grid-margin">
+                    <h:panelGroup layout="block" class="card">
+                        <h:panelGroup layout="block" class="card-body">
+                            <h:panelGroup layout="block" class="text-center hospital-features">
+                                <i class="mdi mdi-medical-bag icon-md text-danger"></i>
+                                <h5 class="font-weight-normal">Pharmacist</h5>
+                                <h5>12</h5>
+                            </h:panelGroup>
+                        </h:panelGroup>
+                    </h:panelGroup>
+                </h:panelGroup>
+                <h:panelGroup layout="block" class="col-xl-2 col-sm-4 stretch-card grid-margin">
+                    <h:panelGroup layout="block" class="card">
+                        <h:panelGroup layout="block" class="card-body">
+                            <h:panelGroup layout="block" class="text-center hospital-features">
+                                <i class="mdi mdi-calendar-clock icon-md text-danger"></i>
+                                <h5 class="font-weight-normal">Rendez-vous</h5>
+                                <h5>29</h5>
+                            </h:panelGroup>
+                        </h:panelGroup>
+                    </h:panelGroup>
+                </h:panelGroup>
+                <h:panelGroup layout="block" class="col-xl-2 col-sm-4 stretch-card grid-margin">
+                    <h:panelGroup layout="block" class="card">
+                        <h:panelGroup layout="block" class="card-body">
+                            <h:panelGroup layout="block" class="text-center hospital-features">
+                                <i class="mdi mdi-file-document-box icon-md text-danger"></i>
+                                <h5 class="font-weight-normal">Reports</h5>
+                                <h5>46</h5>
+                            </h:panelGroup>
+                        </h:panelGroup>
+                    </h:panelGroup>
+                </h:panelGroup>
+            </h:panelGroup>
+    </ui:define>
+
+</ui:composition>
